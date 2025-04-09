@@ -18,9 +18,10 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 // Update CORS configuration
 app.use(cors({
-  origin: ['https://product-management-851u.vercel.app/', 'http://localhost:5173', '*'],
+  origin: '*',
   credentials: true
-}));app.use(express.json());
+}));
+
 app.use(express.urlencoded({ extended: true }));
 
 // Routes
