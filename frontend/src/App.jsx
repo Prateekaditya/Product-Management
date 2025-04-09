@@ -4,8 +4,8 @@ import Footer from './components/Layout/Footer';
 import ProductList from './components/Products/ProductList';
 import ProductDetail from './components/Products/ProductDetail';
 import ProductForm from './components/Products/ProductForm';
-import Login from './components/Auth/Login';
-import Register from './components/Auth/Register';
+import Login from './components/auth/Login';
+import Register from './components/auth/Register';
 import { AuthProvider } from './context/AuthContext';
 import { ProductProvider } from './context/ProductContext';
 
